@@ -1,0 +1,406 @@
+/* Fuente extraida de un sitio web externo */
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans:400,500,700');
+
+/* Estilos del sitio web en general */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+/* Barra de Navegación / Navbar */
+.bg-color{
+  background-color: #282828;
+}
+.navbar{
+  padding: .5rem; 
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+/* Carrusel Fijo / Carousel */
+.sizing{
+  width:100%;
+  height:100%;
+}
+.carousel-caption{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 550%;
+  text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption p{
+  font-size: 200%;
+  text-shadow: 3px 3px 5px #000;
+}
+
+/* Destacados / Jumbotron */
+.jumbotron{
+  padding-top: 1.2rem;
+  padding-bottom: .5rem;
+}
+
+/* Sección de Bienvenida / Welcome Section */
+.welcome{
+  padding-bottom: 2rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  text-align: justify;
+}
+.welcome h1{
+  text-align: left;
+}
+
+/* Nosotros / About Us */
+.fa-user{
+  font-size: 6em;
+  margin: 1rem;
+  color: #606060;
+}
+.fa-user:hover{
+  color: #282828;
+}
+.fa-user:visited{
+  color: #282828;
+}
+
+
+/* Proyectos / Projects */
+.onecolumn{
+  width: 100%;
+  padding: 2rem;
+}
+.fa-mobile-alt, .fa-desktop, .fa-graduation-cap{
+  font-size: 6em;
+  margin: 1rem;
+  color: #606060;
+}
+.fa-mobile-alt:hover{
+  color: #282828;
+}
+.fa-desktop:hover{
+color: #282828;  
+}
+.fa-graduation-cap:hover{
+  color: #282828;
+}
+.fa-mobile-alt, .fa-desktop, .fa-graduation-cap:visited{
+  color: #606060;
+}
+.projects p{
+  text-align: left;
+  padding-left: 8rem;
+}
+
+/* Contactos / Connect */
+.social{
+  padding-bottom: 2rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+.social a{
+  font-size: 6em;
+  padding: 3rem;  
+}
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-whatsapp, .fa-at {
+  color: #606060;
+}
+.fa-facebook:hover{
+  color:#3b5998;
+}
+.fa-twitter:hover{
+  color:#00aced;
+}
+.fa-instagram:hover{
+  color:#C13584;
+}
+.fa-whatsapp:hover{
+  color:#25d366;
+}
+.fa-at:hover{
+  color: #ffcc00;
+}
+
+/* Pie de Página / Footer */
+footer{
+  background-color: #282828;
+  color: #D3D3D3;
+  padding: 2rem;
+  padding-top: 2rem;
+}
+.fa-phone, .fa-envelope, .fa-map-marker {
+  color: #D3D3D3;
+}
+hr.light{
+  border-top: 1px solid #D3D3D3;
+  width: 100%;
+}
+.footerlink{
+  color: #D3D3D3;
+}
+.footerlink:hover{
+  color: #FFF;
+  text-decoration: none;
+}
+.footerlink:visited{
+  color: #FFF;
+  text-decoration: none;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 1024px) {
+
+/* Image Slider */
+.carousel-caption{
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 450%;
+  text-shadow: .5px .5px 10px #000;
+}
+.carousel-caption p{
+  font-size: 150%;
+  text-shadow: .5px .5px 10px #000;
+}
+/* Jumbotron */
+.jumbotron{
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+}
+.jumbotron p{
+  font-size: 90%;
+  text-align: center;
+}
+/* Welcome */
+.welcome h1{
+  font-size: 200%;
+  text-align: left;
+}
+/* Three Column Section */
+.projects p{
+  text-align: left;
+  padding-left: 2rem;
+}
+/* Connect */
+.social a{
+  font-size: 6em;
+  padding: 2rem;  
+}
+}
+
+
+/* Media Queries */
+@media (max-width: 767px) {
+
+/* Social Navigation */
+.socialnavbar {
+  display: none;
+}
+/* Image Slider */
+.carousel-caption{
+  position: absolute;
+  top: 38%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 380%;
+  text-shadow: .5px .5px 10px #000;
+}
+.carousel-caption p{
+  font-size: 120%;
+  text-shadow: .5px .5px 10px #000;
+}
+/* Jumbotron */
+.jumbotron{
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+}
+.jumbotron p{
+  font-size: 90%;
+  text-align: left;
+}
+/* Welcome */
+.welcome h1{
+  text-align: center;
+}
+/* Three Column Section */
+.fa-mobile-alt, .fa-desktop, .fa-graduation-cap{
+  font-size: 5em;
+  margin: .5rem;
+}
+/* Connect */
+.social a{
+  font-size: 5em;
+  padding: 1.5rem;  
+}
+/* Footer */
+.footer p{
+  text-align: left;
+}
+}
+
+
+/* Media Queries */
+@media (max-width: 550px) {
+
+/* Social Navigation */
+.socialnavbar {
+  display: none;
+}
+/* Navbar */
+.navbar-nav li{
+  text-align: center;
+}
+/* Image Slider */
+.sizing{
+  width:140%;
+  height:100%;
+}
+.carousel-item {
+  height:180px;    
+}
+.carousel-caption{
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 300%;
+  text-shadow: .5px .5px 5px #000;
+}
+.carousel-caption p{
+  font-size: 120%;
+  text-shadow: .5px .5px 5px #000;
+}
+/* Jumbotron */
+.jumbotron{
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;  
+}
+.jumbotron p{
+  font-size: 90%;
+  text-align: justify;
+}
+/* Welcome Section */
+.welcome{
+  padding-bottom: 1rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  text-align: justify;
+}
+.welcome h1{
+  font-size: 200%;
+  text-align: center;
+}
+/* One Column Section */
+.onecolumn{
+  width: 110%;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+.onecolumn h1{
+  font-size: 220%;
+  text-align: center;
+}
+.onecolumn p{
+  text-align: justify;
+}
+/* Three Column Section */
+.threecolumn h2{
+  font-size: 160%;
+}
+.projects p{
+  text-align: left;
+  padding-left: 2rem;
+}
+/* Connect */
+.social h1{
+  font-size: 220%;
+  text-align: center;
+}
+.social a{
+  font-size: 3em;
+  padding: 1rem;  
+}
+/* Footer */
+.footer p{
+  text-align: left;
+}
+}
+
+
+/* Bugs y Generales que afectan a todo el sitio web*/
+
+/* Firefox Bug Fix */
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/* Imagen de fondo fija / Fixed background */
+figure {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/ImagenFija.jpg');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+/* Bootstrap Padding Fix */
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 500px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
